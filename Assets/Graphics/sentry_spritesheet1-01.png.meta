@@ -1,0 +1,1041 @@
+fileFormatVersion: 2
+guid: 414230faced4c4382acf20d765efdfdd
+timeCreated: 1481377947
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sentry_spritesheet1-01_0
+    21300002: sentry_spritesheet1-01_1
+    21300004: sentry_spritesheet1-01_2
+    21300006: sentry_spritesheet1-01_3
+    21300008: sentry_spritesheet1-01_4
+    21300010: sentry_spritesheet1-01_5
+    21300012: sentry_spritesheet1-01_6
+    21300014: sentry_spritesheet1-01_7
+    21300016: sentry_spritesheet1-01_8
+    21300018: sentry_spritesheet1-01_9
+    21300020: sentry_spritesheet1-01_10
+    21300022: sentry_spritesheet1-01_11
+    21300024: sentry_spritesheet1-01_12
+    21300026: sentry_spritesheet1-01_13
+    21300028: sentry_spritesheet1-01_14
+    21300030: sentry_spritesheet1-01_15
+    21300032: sentry_spritesheet1-01_16
+    21300034: sentry_spritesheet1-01_17
+    21300036: sentry_spritesheet1-01_18
+    21300038: sentry_spritesheet1-01_19
+    21300040: sentry_spritesheet1-01_20
+    21300042: sentry_spritesheet1-01_21
+    21300044: sentry_spritesheet1-01_22
+    21300046: sentry_spritesheet1-01_23
+    21300048: sentry_spritesheet1-01_24
+    21300050: sentry_spritesheet1-01_25
+    21300052: sentry_spritesheet1-01_26
+    21300054: sentry_spritesheet1-01_27
+    21300056: sentry_spritesheet1-01_28
+    21300058: sentry_spritesheet1-01_29
+    21300060: sentry_spritesheet1-01_30
+    21300062: sentry_spritesheet1-01_31
+    21300064: sentry_spritesheet1-01_32
+    21300066: sentry_spritesheet1-01_33
+    21300068: sentry_spritesheet1-01_34
+    21300070: sentry_spritesheet1-01_35
+    21300072: sentry_spritesheet1-01_36
+    21300074: sentry_spritesheet1-01_37
+    21300076: sentry_spritesheet1-01_38
+    21300078: sentry_spritesheet1-01_39
+    21300080: sentry_spritesheet1-01_40
+    21300082: sentry_spritesheet1-01_41
+    21300084: sentry_spritesheet1-01_42
+    21300086: sentry_spritesheet1-01_43
+    21300088: sentry_spritesheet1-01_44
+    21300090: sentry_spritesheet1-01_45
+    21300092: sentry_spritesheet1-01_46
+    21300094: sentry_spritesheet1-01_47
+    21300096: sentry_spritesheet1-01_48
+    21300098: sentry_spritesheet1-01_49
+    21300100: sentry_spritesheet1-01_50
+    21300102: sentry_spritesheet1-01_51
+    21300104: sentry_spritesheet1-01_52
+    21300106: sentry_spritesheet1-01_53
+    21300108: sentry_spritesheet1-01_54
+    21300110: sentry_spritesheet1-01_55
+    21300112: sentry_spritesheet1-01_56
+    21300114: sentry_spritesheet1-01_57
+    21300116: sentry_spritesheet1-01_58
+    21300118: sentry_spritesheet1-01_59
+    21300120: sentry_spritesheet1-01_60
+    21300122: sentry_spritesheet1-01_61
+    21300124: Main Sentry
+    21300126: sentry_spritesheet1-01_63
+    21300128: sentry_spritesheet1-01_64
+    21300130: RedBullet
+    21300132: sentry_spritesheet1-01_66
+    21300134: Red Line
+    21300136: sentry_spritesheet1-01_68
+    21300138: MainSentry
+    21300140: RedLine
+    21300142: sentry_spritesheet1-01_69
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 912
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 915
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 914
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_3
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 910
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 908
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_5
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 910
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_6
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 910
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_7
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 910
+        width: 103
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_8
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 910
+        width: 105
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_9
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 914
+        width: 103
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_10
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 915
+        width: 102
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_11
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 915
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_12
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 915
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_13
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 915
+        width: 99
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_14
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 916
+        width: 99
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_15
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 913
+        width: 103
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 788
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 790
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_18
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 788
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_19
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 789
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_20
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 789
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_21
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 788
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_22
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 789
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_23
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 790
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_24
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 790
+        width: 108
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_25
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 788
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_26
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 792
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_27
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 789
+        width: 106
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_28
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 789
+        width: 106
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_29
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 789
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_30
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 788
+        width: 107
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_31
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 790
+        width: 107
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 666
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_33
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 666
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_34
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 664
+        width: 119
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_35
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 664
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_36
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 664
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_37
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 664
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_38
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 664
+        width: 117
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_39
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 667
+        width: 116
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_40
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 666
+        width: 118
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_41
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 667
+        width: 239
+        height: 117
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_42
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 668
+        width: 115
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_43
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 666
+        width: 115
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_44
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 664
+        width: 115
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_45
+      rect:
+        serializedVersion: 2
+        x: 1803
+        y: 665
+        width: 117
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_46
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 552
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_47
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 552
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_48
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 552
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_49
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 553
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_50
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 553
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_51
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 553
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_52
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 553
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_53
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 553
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_54
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 553
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_55
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 553
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_56
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 554
+        width: 101
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_57
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 554
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_58
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 554
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_59
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 554
+        width: 103
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_60
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 554
+        width: 102
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_61
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 554
+        width: 101
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainSentry
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 432
+        width: 99
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_63
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 433
+        width: 100
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 369
+        width: 137
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedBullet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 99
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 102
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: RedLine
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 528
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 261
+        width: 62
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_69
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 664
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
