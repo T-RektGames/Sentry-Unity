@@ -1,81 +1,87 @@
 fileFormatVersion: 2
 guid: 414230faced4c4382acf20d765efdfdd
-timeCreated: 1481377947
+timeCreated: 1481555967
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: sentry_spritesheet1-01_0
-    21300002: sentry_spritesheet1-01_1
-    21300004: sentry_spritesheet1-01_2
-    21300006: sentry_spritesheet1-01_3
-    21300008: sentry_spritesheet1-01_4
-    21300010: sentry_spritesheet1-01_5
-    21300012: sentry_spritesheet1-01_6
-    21300014: sentry_spritesheet1-01_7
-    21300016: sentry_spritesheet1-01_8
-    21300018: sentry_spritesheet1-01_9
-    21300020: sentry_spritesheet1-01_10
-    21300022: sentry_spritesheet1-01_11
-    21300024: sentry_spritesheet1-01_12
-    21300026: sentry_spritesheet1-01_13
-    21300028: sentry_spritesheet1-01_14
-    21300030: sentry_spritesheet1-01_15
-    21300032: sentry_spritesheet1-01_16
-    21300034: sentry_spritesheet1-01_17
-    21300036: sentry_spritesheet1-01_18
-    21300038: sentry_spritesheet1-01_19
-    21300040: sentry_spritesheet1-01_20
-    21300042: sentry_spritesheet1-01_21
-    21300044: sentry_spritesheet1-01_22
-    21300046: sentry_spritesheet1-01_23
-    21300048: sentry_spritesheet1-01_24
-    21300050: sentry_spritesheet1-01_25
-    21300052: sentry_spritesheet1-01_26
-    21300054: sentry_spritesheet1-01_27
-    21300056: sentry_spritesheet1-01_28
-    21300058: sentry_spritesheet1-01_29
-    21300060: sentry_spritesheet1-01_30
-    21300062: sentry_spritesheet1-01_31
-    21300064: sentry_spritesheet1-01_32
-    21300066: sentry_spritesheet1-01_33
-    21300068: sentry_spritesheet1-01_34
-    21300070: sentry_spritesheet1-01_35
-    21300072: sentry_spritesheet1-01_36
-    21300074: sentry_spritesheet1-01_37
-    21300076: sentry_spritesheet1-01_38
-    21300078: sentry_spritesheet1-01_39
-    21300080: sentry_spritesheet1-01_40
-    21300082: sentry_spritesheet1-01_41
-    21300084: sentry_spritesheet1-01_42
-    21300086: sentry_spritesheet1-01_43
-    21300088: sentry_spritesheet1-01_44
-    21300090: sentry_spritesheet1-01_45
-    21300092: sentry_spritesheet1-01_46
-    21300094: sentry_spritesheet1-01_47
-    21300096: sentry_spritesheet1-01_48
-    21300098: sentry_spritesheet1-01_49
-    21300100: sentry_spritesheet1-01_50
-    21300102: sentry_spritesheet1-01_51
-    21300104: sentry_spritesheet1-01_52
-    21300106: sentry_spritesheet1-01_53
-    21300108: sentry_spritesheet1-01_54
-    21300110: sentry_spritesheet1-01_55
-    21300112: sentry_spritesheet1-01_56
-    21300114: sentry_spritesheet1-01_57
-    21300116: sentry_spritesheet1-01_58
-    21300118: sentry_spritesheet1-01_59
-    21300120: sentry_spritesheet1-01_60
-    21300122: sentry_spritesheet1-01_61
+    21300000: redEnemy0
+    21300002: redEnemy1
+    21300004: redEnemy2
+    21300006: redEnemy3
+    21300008: redEnemy4
+    21300010: redEnemy5
+    21300012: redEnemy6
+    21300014: redEnemy7
+    21300016: redEnemy8
+    21300018: redEnemy9
+    21300020: redEnemy10
+    21300022: redEnemy11
+    21300024: redEnemy12
+    21300026: redEnemy13
+    21300028: redEnemy14
+    21300030: redEnemy15
+    21300032: greyEnemy0
+    21300034: greyEnemy1
+    21300036: greyEnemy2
+    21300038: greyEnemy3
+    21300040: greyEnemy4
+    21300042: greyEnemy5
+    21300044: greyEnemy6
+    21300046: greyEnemy7
+    21300048: greyEnemy8
+    21300050: greyEnemy9
+    21300052: greyEnemy10
+    21300054: greyEnemy11
+    21300056: greyEnemy12
+    21300058: greyEnemy13
+    21300060: greyEnemy14
+    21300062: greyEnemy15
+    21300064: whiteEnemy0
+    21300066: whiteEnemy1
+    21300068: whiteEnemy2
+    21300070: whiteEnemy3
+    21300072: whiteEnemy4
+    21300074: whiteEnemy5
+    21300076: whiteEnemy6
+    21300078: whiteEnemy7
+    21300080: whiteEnemy8
+    21300082: whiteEnemy9
+    21300084: whiteEnemy10
+    21300086: whiteEnemy11
+    21300088: whiteEnemy12
+    21300090: whiteEnemy13
+    21300092: whiteEnemy14
+    21300094: whiteEnemy15
+    21300096: blueEnemy0
+    21300098: blueEnemy1
+    21300100: blueEnemy2
+    21300102: blueEnemy3
+    21300104: blueEnemy4
+    21300106: blueEnemy5
+    21300108: blueEnemy6
+    21300110: blueEnemy7
+    21300112: blueEnemy8
+    21300114: blueEnemy9
+    21300116: blueEnemy10
+    21300118: blueEnemy11
+    21300120: blueEnemy12
+    21300122: blueEnemy13
     21300124: Main Sentry
-    21300126: sentry_spritesheet1-01_63
-    21300128: sentry_spritesheet1-01_64
+    21300126: blueEnemy15
+    21300128: mainSentry
     21300130: RedBullet
-    21300132: sentry_spritesheet1-01_66
+    21300132: whiteCloud
     21300134: Red Line
-    21300136: sentry_spritesheet1-01_68
+    21300136: redBullet
     21300138: MainSentry
     21300140: RedLine
-    21300142: sentry_spritesheet1-01_69
+    21300142: blackBullet
+    21300144: blueEnemy14
+    21300146: deadEnemy
+    21300148: sentry_spritesheet1-01_67
+    21300150: redLine
+    21300152: sentry_spritesheet1-01_71
+    21300154: sentry_spritesheet1-01_72
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -125,493 +131,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sentry_spritesheet1-01_0
+      name: redEnemy0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 912
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_1
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 915
-        width: 103
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_2
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 914
-        width: 103
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_3
-      rect:
-        serializedVersion: 2
-        x: 369
-        y: 910
-        width: 105
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_4
-      rect:
-        serializedVersion: 2
-        x: 488
-        y: 908
-        width: 106
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_5
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 910
-        width: 99
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_6
-      rect:
-        serializedVersion: 2
-        x: 730
-        y: 910
-        width: 99
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_7
-      rect:
-        serializedVersion: 2
-        x: 846
-        y: 910
-        width: 103
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_8
-      rect:
-        serializedVersion: 2
-        x: 964
-        y: 910
-        width: 105
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_9
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 914
-        width: 103
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_10
-      rect:
-        serializedVersion: 2
-        x: 1206
-        y: 915
-        width: 102
-        height: 99
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_11
-      rect:
-        serializedVersion: 2
-        x: 1326
-        y: 915
-        width: 105
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_12
-      rect:
-        serializedVersion: 2
-        x: 1446
-        y: 915
-        width: 106
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_13
-      rect:
-        serializedVersion: 2
-        x: 1570
-        y: 915
-        width: 99
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_14
-      rect:
-        serializedVersion: 2
-        x: 1691
-        y: 916
-        width: 99
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_15
-      rect:
-        serializedVersion: 2
-        x: 1811
-        y: 913
-        width: 103
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_16
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 788
-        width: 108
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_17
-      rect:
-        serializedVersion: 2
-        x: 127
-        y: 790
-        width: 107
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_18
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 788
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_19
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 789
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_20
-      rect:
-        serializedVersion: 2
-        x: 486
-        y: 789
-        width: 106
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_21
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 788
-        width: 106
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_22
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 789
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_23
-      rect:
-        serializedVersion: 2
-        x: 848
-        y: 790
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_24
-      rect:
-        serializedVersion: 2
-        x: 966
-        y: 790
-        width: 108
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_25
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 788
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_26
-      rect:
-        serializedVersion: 2
-        x: 1208
-        y: 792
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_27
-      rect:
-        serializedVersion: 2
-        x: 1326
-        y: 789
-        width: 106
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_28
-      rect:
-        serializedVersion: 2
-        x: 1448
-        y: 789
-        width: 106
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_29
-      rect:
-        serializedVersion: 2
-        x: 1566
-        y: 789
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_30
-      rect:
-        serializedVersion: 2
-        x: 1687
-        y: 788
-        width: 107
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_31
-      rect:
-        serializedVersion: 2
-        x: 1806
-        y: 790
-        width: 107
-        height: 106
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_32
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 666
-        width: 116
-        height: 115
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_33
-      rect:
-        serializedVersion: 2
-        x: 122
-        y: 666
-        width: 119
-        height: 116
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_34
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 664
-        width: 119
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_35
-      rect:
-        serializedVersion: 2
-        x: 482
-        y: 664
-        width: 115
-        height: 116
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_36
-      rect:
-        serializedVersion: 2
-        x: 603
-        y: 664
-        width: 115
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_37
-      rect:
-        serializedVersion: 2
-        x: 722
-        y: 664
-        width: 115
+        x: 0
+        y: 904
+        width: 120
         height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -619,90 +144,506 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sentry_spritesheet1-01_38
+      name: redEnemy1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy14
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redEnemy15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 904
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy14
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: greyEnemy15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 784
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy7
       rect:
         serializedVersion: 2
         x: 840
         y: 664
-        width: 117
-        height: 119
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_39
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 667
-        width: 116
-        height: 115
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_40
-      rect:
-        serializedVersion: 2
-        x: 1080
-        y: 666
-        width: 118
-        height: 115
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_41
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 667
-        width: 239
-        height: 117
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_42
-      rect:
-        serializedVersion: 2
-        x: 1443
-        y: 668
-        width: 115
-        height: 116
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_43
-      rect:
-        serializedVersion: 2
-        x: 1562
-        y: 666
-        width: 115
-        height: 118
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_44
-      rect:
-        serializedVersion: 2
-        x: 1683
-        y: 664
-        width: 115
+        width: 120
         height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -710,325 +651,429 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: sentry_spritesheet1-01_45
+      name: whiteEnemy8
       rect:
         serializedVersion: 2
-        x: 1803
-        y: 665
-        width: 117
-        height: 119
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_46
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 552
-        width: 101
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_47
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 552
-        width: 101
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_48
-      rect:
-        serializedVersion: 2
-        x: 250
-        y: 552
-        width: 101
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_49
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 553
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_50
-      rect:
-        serializedVersion: 2
-        x: 488
-        y: 553
-        width: 103
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_51
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 553
-        width: 103
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_52
-      rect:
-        serializedVersion: 2
-        x: 728
-        y: 553
-        width: 102
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_53
-      rect:
-        serializedVersion: 2
-        x: 849
-        y: 553
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_54
-      rect:
-        serializedVersion: 2
-        x: 969
-        y: 553
-        width: 101
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_55
-      rect:
-        serializedVersion: 2
-        x: 1089
-        y: 553
-        width: 101
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_56
-      rect:
-        serializedVersion: 2
-        x: 1209
-        y: 554
-        width: 101
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_57
-      rect:
-        serializedVersion: 2
-        x: 1329
-        y: 554
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_58
-      rect:
-        serializedVersion: 2
-        x: 1449
-        y: 554
-        width: 103
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_59
-      rect:
-        serializedVersion: 2
-        x: 1569
-        y: 554
-        width: 103
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_60
-      rect:
-        serializedVersion: 2
-        x: 1690
-        y: 554
-        width: 102
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_61
-      rect:
-        serializedVersion: 2
-        x: 1810
-        y: 554
-        width: 101
-        height: 101
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: MainSentry
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 432
-        width: 99
-        height: 98
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_63
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 433
-        width: 100
-        height: 103
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_64
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 369
-        width: 137
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: RedBullet
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 325
-        width: 99
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_66
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 285
-        width: 102
-        height: 35
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: RedLine
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 528
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_68
-      rect:
-        serializedVersion: 2
-        x: 529
-        y: 261
-        width: 62
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: sentry_spritesheet1-01_69
-      rect:
-        serializedVersion: 2
-        x: 230
+        x: 960
         y: 664
-        width: 119
-        height: 116
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy14
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteEnemy15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 664
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy1
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy2
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy3
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy5
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy7
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy9
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy11
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy13
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy14
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blueEnemy15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 544
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: mainSentry
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: deadEnemy
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 424
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: whiteCloud
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_67
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 304
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redBullet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 313
+        width: 120
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: blackBullet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 120
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: redLine
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 594
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_71
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 0
+        width: 120
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: sentry_spritesheet1-01_72
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 120
+        height: 120
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
