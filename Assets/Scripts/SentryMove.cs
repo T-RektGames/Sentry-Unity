@@ -13,18 +13,38 @@ public class SentryMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		
+		
 	}
 
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetButton("Fire1") && Time.time > nextFire)
+		if (Input.GetMouseButtonDown(0) && Time.time > nextFire)
 		{
 			nextFire = Time.time + fireRate;
-			Instantiate (bullet, bulletSpawn.position, bulletSpawn.rotation);
+
+			Vector2 screenPosition = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
+			screenPosition = Camera.main.ScreenToWorldPoint (screenPosition);
+			GameObject newBullet = Instantiate (bullet, bulletSpawn.position, bulletSpawn.rotation) as GameObject;
+			float distance = Mathf.Sqrt(
+				((screenPosition.x - bulletSpawn.position.x) * (screenPosition.x - bulletSpawn.position.x)) + ((screenPosition.y - bulletSpawn.position.y) * (screenPosition.y - bulletSpawn.position.y)));
+			float time = distance / 10;
+			float velocityX = (float) ((screenPosition.x - bulletSpawn.position.x) / time);
+			float velocityY = (float) ((screenPosition.y - bulletSpawn.position.y) / time);
+			//shotSentryBullet.setVelocityX(velocityX);
+			newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2(velocityX, velocityY);
+			float rotationAngle = (float) (RadianToDegree(Mathf.Atan2(screenPosition.y - bulletSpawn.position.y, screenPosition.x - bulletSpawn.position.x)));
+			newBullet.transform.Rotate (0, 0, rotationAngle, Space.World);
+
+
+			print (bulletSpawn.position.x);
+			//shotSentryBullet.setVelocityY(velocityY);
+			//double rotationAngle = 90 - Math.toDegrees(Math.atan2(screenY - sentry.getBulletOriginY(), screenX - sentry.getBulletOriginX()));
+			//shotSentryBullet.setRotateAngle(rotationAngle);
+			//Input.mo
 			//{
 		}
-		
+
 		//gameObject.transform.Translate(Vector3.up);
 
 		//if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary)
@@ -51,5 +71,10 @@ public class SentryMove : MonoBehaviour {
 
 		//}
 
+	}
+
+	private float RadianToDegree(double angle)
+	{
+		return (float) (angle * (180.0 / Mathf.PI));
 	}
 }
