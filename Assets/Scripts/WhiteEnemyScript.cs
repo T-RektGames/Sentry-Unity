@@ -7,6 +7,9 @@ public class WhiteEnemyScript : MonoBehaviour {
 	public int health;
 	private Animator anim;
 	public GameObject deadEnemy;
+	public float fireRate;
+	private float nextFire;
+	public GameObject blackBullet;
 
 	void Start () {
 		health = 3;
@@ -16,6 +19,11 @@ public class WhiteEnemyScript : MonoBehaviour {
 	
 
 	void Update () {
+
+		if (Time.time > nextFire) {
+			shoot ();
+			nextFire = Time.time + fireRate;
+		}	
 		
 	}
 
@@ -44,6 +52,10 @@ public class WhiteEnemyScript : MonoBehaviour {
 			}
 		}
 
+	}
+
+	void shoot(){
+		Instantiate (blackBullet, gameObject.transform.position, gameObject.transform.rotation);
 	}
 
 }

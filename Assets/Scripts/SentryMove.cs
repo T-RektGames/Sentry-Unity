@@ -8,7 +8,7 @@ public class SentryMove : MonoBehaviour
 	public GameObject bullet;
 	public Transform bulletSpawn;
 	public float fireRate;
-
+	public float health;
 	private float nextFire;
 	double halfScreen = Screen.height / 2.0;
 	Vector2 screenPosition;
@@ -25,19 +25,25 @@ public class SentryMove : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
+		print (Input.touchCount);
 
-		//if (Time.time > nextFire)
-		//{
-		//	nextFire = Time.time + fireRate;
+//		if (Input.GetMouseButtonDown (0) && Time.time > nextFire) {
+//			screenPosition = Camera.main.ScreenToWorldPoint (new Vector2 (Input.mousePosition.x, Input.mousePosition.y));
+//			shoot (screenPosition.x, screenPosition.y);
+//			nextFire = Time.time + fireRate;
+//		}
 
-		//shoot ();
-		//shotSentryBullet.setVelocityY(velocityY);
-		//double rotationAngle = 90 - Math.toDegrees(Math.atan2(screenY - sentry.getBulletOriginY(), screenX - sentry.getBulletOriginX()));
-		//shotSentryBullet.setRotateAngle(rotationAngle);
-		//Input.mo
-		//{
 
-		
+//		if (Input.touchCount == 1) {
+//			Vector2 screenPositiony = Camera.main.ScreenToWorldPoint (new Vector2 (Input.GetTouch (0).position.x, Input.GetTouch (0).position.y));
+//			if (screenPositiony.x > redLine.transform.position.x) {
+//				//do something
+//				if (Time.time > nextFire) {
+//					shoot (screenPositiony.x, screenPositiony.y);
+//					nextFire = Time.time + fireRate;
+//				}
+//			}
+//		}
 
 		for (int i = 0; i < Input.touchCount; i++) {
 			//if (Input.GetTouch (i).phase == TouchPhase.Began) {
@@ -45,6 +51,7 @@ public class SentryMove : MonoBehaviour
 			if (screenPosition.x > redLine.transform.position.x) {
 				//do something
 				if (Time.time > nextFire) {
+					//screenPosition = Camera.main.ScreenToWorldPoint (new Vector2 (Input.GetTouch (i).position.x, Input.GetTouch (i).position.y));
 					shoot (screenPosition.x, screenPosition.y);
 					nextFire = Time.time + fireRate;
 				}
@@ -89,6 +96,18 @@ public class SentryMove : MonoBehaviour
 
 		//}
 
+	}
+
+	void OnTriggerEnter2D (Collider2D other){
+		if (other.tag == "Black Bullet") {
+			Destroy (other.gameObject);
+			health -= 1;
+			if (health < 1) {
+				Destroy (this.gameObject);
+				Application.LoadLevel (Application.loadedLevel);
+			}
+		}
+		//print ("lol");
 	}
 
 	private float RadianToDegree (double angle)

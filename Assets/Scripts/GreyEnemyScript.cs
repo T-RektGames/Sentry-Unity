@@ -7,7 +7,9 @@ public class GreyEnemyScript : MonoBehaviour {
 	public int health;
 	private Animator anim;
 	public GameObject deadEnemy;
-
+	public float fireRate;
+	private float nextFire;
+	public GameObject blackBullet;
 	// Use this for initialization
 	void Start () {
 		health = 2;
@@ -17,6 +19,11 @@ public class GreyEnemyScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (Time.time > nextFire) {
+			shoot ();
+			nextFire = Time.time + fireRate;
+		}	
 	
 	}
 
@@ -36,6 +43,10 @@ public class GreyEnemyScript : MonoBehaviour {
 			}
 		}
 
+	}
+
+	void shoot(){
+		Instantiate (blackBullet, gameObject.transform.position, gameObject.transform.rotation);
 	}
 
 }

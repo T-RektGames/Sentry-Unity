@@ -14,10 +14,16 @@ public class EnemyManager : MonoBehaviour {
 	public GameObject greyEnemy;
 	public GameObject whiteEnemy;
 
+	public EnemyManager(){
+
+		newPosition = new Vector3(11, -3, 0);
+		enemySpawnRate = 2;
+	}
+
 	// Use this for initialization
 	void Start () {
 		//r = new Random ();
-		newPosition = new Vector3(11, -3, 0);
+
 	}
 	
 	// Update is called once per frame

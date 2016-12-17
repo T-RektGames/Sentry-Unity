@@ -7,6 +7,9 @@ public class RedEnemyScript : MonoBehaviour {
 	public float speed;
 	public int health;
 	public GameObject deadEnemy;
+	public float fireRate;
+	private float nextFire;
+	public GameObject blackBullet;
 	// Use this for initialization
 	void Start () {
 		health = 1;
@@ -16,7 +19,10 @@ public class RedEnemyScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		if (Time.time > nextFire) {
+			shoot ();
+			nextFire = Time.time + fireRate;
+		}	
 	}
 
 	void OnTriggerEnter2D (Collider2D other){
@@ -28,5 +34,10 @@ public class RedEnemyScript : MonoBehaviour {
 		}
 
 	}
+
+	void shoot(){
+		Instantiate (blackBullet, gameObject.transform.position, gameObject.transform.rotation);
+	}
+
 
 }
