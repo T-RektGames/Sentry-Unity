@@ -16,7 +16,7 @@ public class EnemyManager : MonoBehaviour {
 
 	public EnemyManager(){
 
-		newPosition = new Vector3(11, -3, 0);
+		newPosition = new Vector3(10, -3, 0);
 		enemySpawnRate = 2;
 	}
 
