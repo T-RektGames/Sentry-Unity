@@ -13,23 +13,25 @@ public class EnemyManager : MonoBehaviour {
 	public GameObject redEnemy;
 	public GameObject greyEnemy;
 	public GameObject whiteEnemy;
+	public GameManager gameManager;
 
 	public EnemyManager(){
 
 		newPosition = new Vector3(10, -3, 0);
 		enemySpawnRate = 2;
+
 	}
 
 	// Use this for initialization
 	void Start () {
 		//r = new Random ();
-
+		gameManager = gameObject.GetComponent<GameManager> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
-		if (Time.time > nextFire){
+		if (Time.time > nextFire && gameManager.getDied() == false){
 			nextFire = Time.time + enemySpawnRate;
 			i = Random.Range (1, 4); 
 			newYPos = Random.Range (-4, 3);

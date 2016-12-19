@@ -4,6 +4,7 @@ using System.Collections;
 public class RedBulletScript : MonoBehaviour {
 	public float speed;
 	public GameManager gameManager;
+
 	//public Canvas score;
 
 	//public Transform bulletSpawn;

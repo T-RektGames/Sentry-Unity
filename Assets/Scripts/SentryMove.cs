@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class SentryMove : MonoBehaviour
 {
@@ -13,38 +14,32 @@ public class SentryMove : MonoBehaviour
 	double halfScreen = Screen.height / 2.0;
 	Vector2 screenPosition;
 	public GameObject redLine;
+	private float originalHealth;
+	private SpriteRenderer renderer;
+	private Color tempColour;
+	public GameManager gameManager;
 
 
 	// Use this for initialization
 	void Start ()
 	{
-		
-		
+		originalHealth = health;
+		renderer = gameObject.GetComponent<SpriteRenderer> ();
+		GameObject gameManagerObject = GameObject.FindWithTag ("GameController");
+		if (gameManagerObject != null)
+		{
+			gameManager = gameManagerObject.GetComponent <GameManager>();
+		}
+		if (gameManager == null)
+		{
+			Debug.Log ("Cannot find 'GameController' script");
+		}
 	}
 
 	// Update is called once per frame
 	void Update ()
 	{
-		print (Input.touchCount);
-
-//		if (Input.GetMouseButtonDown (0) && Time.time > nextFire) {
-//			screenPosition = Camera.main.ScreenToWorldPoint (new Vector2 (Input.mousePosition.x, Input.mousePosition.y));
-//			shoot (screenPosition.x, screenPosition.y);
-//			nextFire = Time.time + fireRate;
-//		}
-
-
-//		if (Input.touchCount == 1) {
-//			Vector2 screenPositiony = Camera.main.ScreenToWorldPoint (new Vector2 (Input.GetTouch (0).position.x, Input.GetTouch (0).position.y));
-//			if (screenPositiony.x > redLine.transform.position.x) {
-//				//do something
-//				if (Time.time > nextFire) {
-//					shoot (screenPositiony.x, screenPositiony.y);
-//					nextFire = Time.time + fireRate;
-//				}
-//			}
-//		}
-
+		
 		for (int i = 0; i < Input.touchCount; i++) {
 			//if (Input.GetTouch (i).phase == TouchPhase.Began) {
 			screenPosition = Camera.main.ScreenToWorldPoint (new Vector2 (Input.GetTouch (i).position.x, Input.GetTouch (i).position.y));
@@ -62,39 +57,13 @@ public class SentryMove : MonoBehaviour
 					
 					gameObject.transform.position = tmp;
 				}
-				//if (Input.GetTouch(i).position.y < halfScreen) {
-				//		if (gameObject.transform.localPosition.y > -4.5) {
-				//		gameObject.transform.Posi;
-				//		}
-				//} else if (Input.GetTouch(i).position.y > halfScreen) {
-				//
-				//		if (gameObject.transform.localPosition.y < 2.5) {
-				//		gameObject.transform.Translate (Vector3.up * 5 *Time.deltaTime);
-				//		}
-				//	}
-
-				//}
+			
 			}
-			//}
+
 
 		}
 
-		//gameObject.transform.Translate(Vector3.up);
-
-		//if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Stationary)
-
-
-		//Vector2 touchPosition = Input.GetTo
-
-
-
-		//Check if it is left or right?
-
-
-
-		//Debug.Log("Character pretended move to: ");
-
-		//}
+	
 
 	}
 
@@ -102,9 +71,15 @@ public class SentryMove : MonoBehaviour
 		if (other.tag == "Black Bullet") {
 			Destroy (other.gameObject);
 			health -= 1;
+			tempColour = renderer.color;
+			//if (tmp.a > 0) {
+
+			tempColour.a = (health/originalHealth);
+			renderer.color = tempColour;
 			if (health < 1) {
 				Destroy (this.gameObject);
-				Application.LoadLevel (Application.loadedLevel);
+				gameManager.setDied (true);
+
 			}
 		}
 		//print ("lol");
