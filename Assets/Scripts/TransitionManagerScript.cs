@@ -10,11 +10,14 @@ public class TransitionManagerScript : MonoBehaviour {
 	private int counter;
 	private bool startGame = false;
 	private Color tmp;
+	//private AudioSource mainTheme;
 
 
 	// Use this for initialization
 	void Start () {
 		counter = 0;
+		//mainTheme = gameObject.GetComponent<AudioSource> ();
+		//mainTheme.time = PlayerPrefs.GetFloat ("Playback Time", 0);
 		//counter2 = 0;
 	}
 	
@@ -56,6 +59,7 @@ public class TransitionManagerScript : MonoBehaviour {
 
 			if (counter == 90) {
 				SceneManager.LoadScene(2);
+				//PlayerPrefs.SetFloat ("Playback Time", mainTheme.time);
 			}
 
 		}

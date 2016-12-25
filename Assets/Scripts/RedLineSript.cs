@@ -7,6 +7,7 @@ public class RedLineSript : MonoBehaviour {
 
 	public GameManager gameManager;
 
+
 	// Use this for initialization
 	void Start () {
 		GameObject gameManagerObject = GameObject.FindWithTag ("GameController");

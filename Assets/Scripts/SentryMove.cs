@@ -11,18 +11,23 @@ public class SentryMove : MonoBehaviour
 	public float fireRate;
 	public float health;
 	private float nextFire;
-	double halfScreen = Screen.height / 2.0;
-	Vector2 screenPosition;
+	//double halfScreen = Screen.height / 2.0;
+	private Vector2 screenPosition, sentryPosition;
 	public GameObject redLine;
 	private float originalHealth;
 	private SpriteRenderer renderer;
 	private Color tempColour;
 	public GameManager gameManager;
+	private int counter;
+	public int speed;
+	private Vector2 velocity, tmp;
+
 
 
 	// Use this for initialization
 	void Start ()
 	{
+		counter = 0;
 		originalHealth = health;
 		renderer = gameObject.GetComponent<SpriteRenderer> ();
 		GameObject gameManagerObject = GameObject.FindWithTag ("GameController");
@@ -39,7 +44,7 @@ public class SentryMove : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		
+		counter += 1;
 		for (int i = 0; i < Input.touchCount; i++) {
 			//if (Input.GetTouch (i).phase == TouchPhase.Began) {
 			screenPosition = Camera.main.ScreenToWorldPoint (new Vector2 (Input.GetTouch (i).position.x, Input.GetTouch (i).position.y));
@@ -51,13 +56,31 @@ public class SentryMove : MonoBehaviour
 					nextFire = Time.time + fireRate;
 				}
 			} else {
-				Vector3 tmp = gameObject.transform.position;
-				tmp.y = screenPosition.y;
+				sentryPosition = gameObject.transform.position;
+				tmp = gameObject.transform.position;
+				tmp.y = Vector2.SmoothDamp(sentryPosition, screenPosition, ref velocity , 0.1f, speed).y;
 				if (-4.5 <= tmp.y && tmp.y <=2.5) {
 					
 					gameObject.transform.position = tmp;
 				}
+//				if (screenPosition.y > sentryPosition.y) {
+//					gameObject.GetComponent<Rigidbody2D> ().velocity = transform.up * speed;
+//				}
+				
+
 			
+			}
+
+			if (counter == 4000) {
+				fireRate = 0.35f;
+			}
+
+			if (counter == 5500) {
+				fireRate = 0.30f;
+			}
+
+			if (counter == 7500) {
+				fireRate = 0.25f;
 			}
 
 

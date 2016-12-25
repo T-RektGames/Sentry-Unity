@@ -9,10 +9,12 @@ public class DeathScreenScript : MonoBehaviour {
 	private int currentScore, highScore;
 	public GameObject topCloud, bottomCloud;
 	private Vector2 newScorePosition, newTopCloudPosition, newBottomCloudPosition, newHighScorePosition, 
-					newHighScoreTextPosition, newYourScorePosition;
+					newHighScoreTextPosition;
 	public float speed;
 	private Color tmp;
+	private AudioSource mainTheme;
 	private bool canProceed;
+	//public AudioClip clip;
 
 	// Use this for initialization
 	void Start () {
@@ -25,8 +27,12 @@ public class DeathScreenScript : MonoBehaviour {
 		newBottomCloudPosition = bottomCloud.transform.position;
 		newHighScorePosition = highScoreNumber.transform.position;
 		newHighScoreTextPosition = highScoreText.transform.position;
-		newYourScorePosition = yourScore.transform.position;
+		//newYourScorePosition = yourScore.transform.position;
 		canProceed = false;
+		//mainTheme = gameObject.GetComponent<AudioSource> ();
+		//mainTheme.clip = clip;
+		//mainTheme.time = PlayerPrefs.GetFloat ("Playback Time", 0);
+		//mainTheme.Play ();
 
 	}
 	
@@ -39,10 +45,17 @@ public class DeathScreenScript : MonoBehaviour {
 		for (int i = 0; i < Input.touchCount; i++) {
 			
 			if (Input.GetTouch (i).phase == TouchPhase.Began && canProceed == true) {
+				//PlayerPrefs.SetFloat ("Playback Time", mainTheme.time);
 				SceneManager.LoadScene (1);
+
 			}
 
 		}
+
+//		if (Input.GetMouseButtonDown (0)) {
+//			SceneManager.LoadScene (1);
+//			//PlayerPrefs.SetFloat ("Playback Time", mainTheme.time);
+//		}
 
 	}
 
