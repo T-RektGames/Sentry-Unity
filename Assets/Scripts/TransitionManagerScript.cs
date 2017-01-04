@@ -58,7 +58,11 @@ public class TransitionManagerScript : MonoBehaviour {
 			}
 
 			if (counter == 90) {
-				SceneManager.LoadScene(2);
+				if (PlayerPrefs.GetInt ("Seen Tutorial", 0) == 1) {
+					SceneManager.LoadScene (2);
+				} else {
+					SceneManager.LoadScene (4);
+				}
 				//PlayerPrefs.SetFloat ("Playback Time", mainTheme.time);
 			}
 
